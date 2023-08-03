@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/background.jpg');
+}
+
+.app {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.carousel-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  height: 200px;
+  border: 1px solid #ddd;
+  background-color: #f5f5f5;
+}
+
+header {
+
+  padding: 10px; /* Optional: Add some padding to the header */
+}
+
+.header-content {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  
+}
+
+.logo img {
+  height: 100px;
+  margin-right: 30px; /* Optional: Add some space between the image and the h1 */
+}
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 20px solid white; 
+}
+
+
+
+nav ul {
+  list-style: none;
+  margin: 10px;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 50px; /* Optional: Add some space between the list items */
+}
+
+nav li a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Optional: Add hover effect on links */
+nav li a:hover {
+  background-color: #e0e0e0;
+}

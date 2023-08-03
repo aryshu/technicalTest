@@ -1,0 +1,27 @@
+/* carousel.css */
+.carousel-slide {
+    width: 400px; 
+    height: 400px;
+    overflow: hidden; 
+    border-radius: 5px;
+    margin: 20px;
+
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    object-fit: cover;
+  }
+  
+  /* .centered {
+    transform: scale(1.1); 
+    margin: 20px;
+  }
+  
+ 
+.centered img {
+    height: 220px; 
+     margin: 1px;
+  } */
