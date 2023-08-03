@@ -1,10 +1,9 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-import './App.css'
+
+
 import Carousel from './Carousel';
 import Header from './header';
 import Vertical from './VerticalSlider';
+import Content from './Content'
 
 function App() {
   
@@ -21,8 +20,11 @@ function App() {
     <>
          <div className="App">
           <Header />
-        {/* <Carousel /> */}
-        <Vertical photos={photos} />
+          {/* Test One - Carousel */}
+          <Content />
+        <Carousel />
+        {/* Test One- Vertical Slider */}
+        {/* <Vertical photos={photos} /> */}
       
     </div>
 

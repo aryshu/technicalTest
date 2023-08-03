@@ -2,7 +2,7 @@
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import './carousel.css'; 
+import './App.css'; 
 
 const Carousel = () => {
   const settings = {
@@ -15,7 +15,7 @@ const Carousel = () => {
     centerPadding: '0.1px',
   };
 
-  // Replace the image URLs with your own photo URLs
+  
   const photos = [
     'https://images2.alphacoders.com/474/474206.jpg',
     'https://cdnb.artstation.com/p/assets/images/images/064/935/993/large/suke-x.jpg?1689107764',
