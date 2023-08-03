@@ -6,8 +6,8 @@ const header = () => {
   <div className="header-content">
     <div className="logo">
       <img
-        src="images/logo.png"
-        style={{ height: '100px' }}
+        src="https://raw.githubusercontent.com/ataraxielle/technicalTest/main/src/images/logo.png"
+        style={{ height: '50px' }}
         alt="Logo"
       />
     </div>
