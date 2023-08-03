@@ -3,6 +3,9 @@ body {
   margin: 0;
   padding: 0;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('images/background.jpg');
+  background-size: cover;
+  
+  
 }
 
 .app {
@@ -76,3 +79,5 @@ nav li a {
 nav li a:hover {
   background-color: #e0e0e0;
 }
+
+/* Slider */
